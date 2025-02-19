@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import SeatMapKonva from "./components/SeatMapKonva";
+import SeatMapSVG from "./components/SeatMapSvg";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <h1>Тест схемы зала</h1>
+            <h2>React Konva</h2>
+            <SeatMapKonva />
+
+            <h2>SVG + D3.js</h2>
+            <SeatMapSVG />
+        </div>
+    );
 }
 
 export default App;
