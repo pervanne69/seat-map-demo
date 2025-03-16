@@ -70,7 +70,7 @@ const SeatMapKonva = () => {
                                 stroke="black"
                                 strokeWidth={1}
                                 cornerRadius={5}
-                                onMouseDown={() => handleSeatClick(row, col)}
+                                onClick={() => handleSeatClick(row, col)}
                                 style={{ cursor: "pointer" }}
                             />
                         );

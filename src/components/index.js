@@ -1,0 +1,1 @@
+import { SeatMap, halls } from "./SeatMap";

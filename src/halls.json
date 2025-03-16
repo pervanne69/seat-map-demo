@@ -1,0 +1,100 @@
+{
+  "halls": [
+    {
+      "id": 1,
+      "name": "Концертный зал",
+      "width": 800,
+      "height": 600,
+      "sections": [
+        {
+          "id": 1,
+          "name": "Партер",
+          "rows": 10,
+          "cols": 20,
+          "seats": [
+            {
+              "id": "1A",
+              "row": 1,
+              "col": 1,
+              "size": "standard",
+              "price": 500,
+              "status": "available"
+            },
+            {
+              "id": "1B",
+              "row": 1,
+              "col": 2,
+              "size": "large",
+              "price": 700,
+              "status": "reserved"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Театральный зал",
+      "width": 900,
+      "height": 700,
+      "sections": [
+        {
+          "id": 2,
+          "name": "Балкон",
+          "rows": 8,
+          "cols": 15,
+          "seats": [
+            {
+              "id": "B1",
+              "row": 1,
+              "col": 1,
+              "size": "small",
+              "price": 300,
+              "status": "available"
+            },
+            {
+              "id": "B2",
+              "row": 1,
+              "col": 2,
+              "size": "standard",
+              "price": 450,
+              "status": "sold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Спортивный стадион",
+      "width": 1200,
+      "height": 800,
+      "sections": [
+        {
+          "id": 3,
+          "name": "VIP-ложа",
+          "rows": 5,
+          "cols": 10,
+          "seats": [
+            {
+              "id": "V1",
+              "row": 1,
+              "col": 1,
+              "size": "luxury",
+              "price": 1500,
+              "status": "available"
+            },
+            {
+              "id": "V2",
+              "row": 1,
+              "col": 2,
+              "size": "luxury",
+              "price": 1500,
+              "status": "available"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
